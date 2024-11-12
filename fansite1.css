@@ -1,0 +1,631 @@
+*{/*pour appliquer un css a tout les éléments*/
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+body{/*pour appliquer un css au corps du site*/
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(250, 250, 250);
+}
+
+
+h2, h3, h4{/*pour appliquer un css aux titres*/
+    font-style: italic;
+}
+
+
+header{/*pour appliquer un css a l'entête*/
+    min-height: 150px;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    background-color: rgb(16, 16, 16);
+    margin-top: 0px; 
+    margin-bottom: 0px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    box-shadow: 0px 0px 10px 4px rgb(11, 11, 11);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+main{/*pour appliquer un css aux contenu principale du site*/
+    background-color: rgb(250, 250, 250);
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+
+footer{/*pour appliquer un css au bas du site*/
+    box-shadow: 0px 0px 10px 4px rgb(5, 5, 5);
+}
+
+
+.menu ul{/*pour appliquer un css a la partie pour la navigation*/
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style-type: none;
+}
+
+
+.menu li {
+   height: 60px;
+   width: 100;
+   margin: 16px;
+   text-align: center;
+   font-size: 1.2rem;
+}
+
+
+.menu li a:hover{
+    color: rgb(253, 203, 4);
+}
+
+
+.menu li a{
+    font-style: italic;
+    color: rgb(253, 249, 249);
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+.titre{
+    height: 60px;
+    width: 360px;
+    margin: auto;
+    text-align: center; 
+}
+
+
+h1{/*pour appliquer un css au grand titre*/
+    color: rgb(253, 203, 4);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.3rem;
+}
+
+
+.presentation{/*pour appliquer un css a la partie présentation*/
+    min-height: 150px;
+    max-width: 800px;
+    background-color: rgb(16, 16, 16);
+    margin: auto;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 35%;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0px 0px 10px 4px rgb(11, 11, 11);
+}
+
+
+.presentation h2{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    font-size: 1.8rem;
+    margin-bottom: 35px;
+    color: white;
+}
+
+
+.presentation img{
+    grid-column-start: 1;
+    border-radius: 7px;
+    align-self: center;
+    justify-self: center;
+    border-width: 2px;
+    border-style: solid;
+    border-color: whitesmoke;
+}
+
+
+.presentation p{
+    grid-column-start: 2;
+    font-size: 1.3rem;
+    padding-right: 15px;
+    align-content: center;
+    color: white;
+}
+
+
+.université{/*pour appliquer un css a la partie université*/
+    min-height: 150px;
+    max-width: 800px;
+    background-color: rgb(16, 16, 16);
+    margin: auto;
+    text-align: center;
+    border-radius: 20px;
+    padding: 30px;
+    margin-top: 30px;
+    box-shadow: 0px 0px 10px 4px rgb(11, 11, 11);
+}
+
+
+.université h2{
+    font-size: 1.8rem;
+    margin-bottom: 35px;
+    color: white;
+}
+
+
+.université img{
+    border-radius: 7px;
+    margin-bottom: 20px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: whitesmoke;
+}
+
+
+.université p{
+    font-size: 1.2rem;
+    color: white;
+    
+}
+
+
+.draft{/*pour appliquer un css a la partie draft*/
+    min-height: 150px;
+    max-width: 800px;
+    background-color: rgb(16, 16, 16);
+    margin: auto;
+    padding: 30px;
+    text-align: center;
+    border-radius: 20px;
+    margin-top: 30px;
+    box-shadow: 0px 0px 10px 4px rgb(11, 11, 11);
+}
+
+
+.draft h2{
+    font-size: 1.8rem;
+    margin-bottom: 35px;
+    color: white;
+}
+
+
+.draft img{
+    border-radius: 7px;
+    margin-bottom: 20px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: whitesmoke;
+}
+
+
+.draft p{
+    font-size: 1.2rem;
+    color: white;
+}
+
+
+.palmares{/*pour appliquer un css a la partie palmares*/
+    min-height: 150px;
+    max-width: 800px;
+    background-color: rgb(16, 16, 16);
+    text-align: center;
+    margin: auto;
+    border-radius: 20px;
+    padding: 30px;
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 34%;
+    box-shadow: 0px 0px 10px 4px rgb(11, 11, 11);
+}
+
+
+.palmares h2{
+    font-size: 1.8rem;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    margin-bottom: 35px;
+    color: white;
+}
+
+
+.palmares img{
+    border-radius: 7px;
+    align-self: center;
+    justify-self: center;
+    border-width: 2px;
+    border-style: solid;
+    border-color: whitesmoke;
+}
+
+
+.palmares ul{
+    font-size: 1.2rem;
+    text-align: center;
+    color: white;
+    padding-left: 0px;
+}
+
+
+.cettesaison{/*pour appliquer un css a la partie sur cette saison*/
+    min-height: 150px;
+    max-width: 800px;
+    background-color: rgb(16, 16, 16);
+    margin: auto;
+    text-align: center;
+    border-radius: 20px;
+    padding: 30px;
+    margin-top: 30px;
+    box-shadow: 0px 0px 10px 4px rgb(11, 11, 11);
+}
+
+
+.cettesaison h2{
+    font-size: 1.8rem;
+    margin-bottom: 35px;
+    color: white;
+}
+
+
+.cettesaison img{
+    border-radius: 7px;
+    margin-bottom: 20px;
+    width: 500px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: whitesmoke;
+}
+
+
+.cettesaison p{
+    font-size: 1.2rem;
+    color: white;
+}
+
+
+.vieprivée{/*pour appliquer un css a la partie sur sa vie privée*/
+    min-height: 150px;
+    max-width: 800px;
+    background-color: rgb(16, 16, 16);
+    margin: auto;
+    text-align: center;
+    border-radius: 20px;
+    padding: 30px;
+    margin-top: 30px;
+    box-shadow: 0px 0px 10px 4px rgb(11, 11, 11);
+}
+
+
+.vieprivée h2{
+    font-size: 1.8rem;
+    margin-bottom: 35px;
+    color: white;
+}
+
+
+.vieprivée img{
+    border-radius: 7px;
+    margin-bottom: 20px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: whitesmoke;
+}
+
+
+.vieprivée p{
+    font-size: 1.2rem;
+    color: white;
+}
+
+
+.vidéo{/*pour appliquer un css a la partie vidéo*/
+    min-height: 150px;
+    max-width: 800px;
+    background-color: rgb(16, 16, 16);
+    margin: auto;
+    text-align: center;
+    border-radius: 20px;
+    padding: 30px;
+    margin-top: 30px;
+    box-shadow: 0px 0px 10px 4px rgb(11, 11, 11);
+}
+
+
+.vidéo h2{
+    font-size: 1.8rem;
+    margin-bottom: 35px;
+    color: white;
+}
+
+
+.vidéo iframe{
+    border-radius: 15px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: whitesmoke;
+    max-width: 900px;
+}
+
+
+.liens{/*pour appliquer un css a la partie des liens*/
+    height: 100px;
+    width: 100%;
+    text-align: center; 
+    padding-top: 10px; 
+    background-color: rgb(16, 16, 16);
+}
+
+
+.liens h4{
+    color: white;
+}
+
+
+.liens a{
+    text-decoration: none;
+    color: rgb(250, 247, 247);
+    font-weight: bold;
+    margin-right: 15px;
+    margin-top: 10px;
+    align-content: center;
+    padding-left: 15px;
+}
+
+
+.photo{
+    display: flex;
+    justify-content: center; 
+}
+
+
+.adidas{
+    border-radius: 8px;
+    width: 38px;
+}
+
+
+.boutiqueofficiel{
+    width: 36px;
+    border-radius: 8px;
+}
+
+
+.burgermenu{/*pour enlever de l'image du burger menu par défaut*/
+    width: 50px;
+    display: none;
+}
+
+/*partie sur le média query pour le responsive*/
+
+@media(max-width:1100px){
+    .menu li {
+        height: 60px;
+        width: 100;
+        margin: 15px;
+        text-align: center;
+        font-size: 1rem;
+    }
+}
+
+
+@media(max-width:965px){
+    .menu li {
+        height: 60px;
+        width: 100;
+        margin: 13px;
+        text-align: center;
+        font-size: 0.8rem;
+    }
+}
+
+
+@media(max-width:870px){
+    .palmares{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .palmares img{
+        margin-bottom: 20px;
+    }
+
+    .palmares ul{
+        text-align: center;
+    }
+}
+
+
+@media(max-width:795px){
+    .menu{
+        position: absolute;
+        background-color: rgb(16, 16, 16);
+        left: 0;
+        border-bottom-right-radius: 15px;
+        border-bottom-left-radius: 15px;
+        border-width: 2px;
+        border-style: solid;
+        border-color: white;
+        margin-left: -100%;
+        transition: all 0.5s ease;
+    }
+
+    .mobile-menu{
+        margin-left: 0;
+    }
+
+    .menu ul{
+        flex-direction: column;
+    }
+
+    .menu li a:hover{
+        color: rgb(253, 203, 4);
+    }
+
+    .menu li a{
+        color: white;
+    }
+
+    .burgermenu{
+        display: block;
+        margin-bottom: 15px;
+    }
+
+    .presentation{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .presentation img{
+        margin-bottom: 20px;
+    }
+}
+
+
+@media(max-width:640px){
+    .vidéo iframe{
+        width: 500px;
+    }
+}
+
+
+@media(max-width:580px){
+    .cettesaison img{
+        width: 300px;
+    }
+
+    .vidéo iframe{
+        width: 400px;
+    }
+}
+
+
+@media(max-width:480px){
+    .vidéo iframe{
+        width: 350px;
+    }
+}
+
+
+@media(max-width:469px){
+    .menu li a{
+        color: white;
+        font-size: 0.6rem;
+    }
+
+    .liens a{
+        margin-right: 8px;
+
+    }
+}
+
+
+@media(max-width:444px){
+
+    .vidéo h2{
+        font-size: 1.3rem;
+    }
+
+    .vidéo iframe{
+        width: 300px;
+    }
+
+    .liens a{
+        margin-right: 2px;
+    }
+}
+
+
+@media(max-width:420px){
+    .liens a{
+        margin-right: 0px;
+        padding-left: 10px;
+    }
+}
+
+
+@media(max-width:400px){
+    .presentation p{
+        font-size: 1.2rem;
+        padding-left: 12px;
+    }
+
+    .université p{
+        font-size: 1.1rem;
+    }
+
+    .draft p{
+        font-size: 1.1rem;
+
+    }
+
+    .palmares ul{
+        font-size: 1rem;
+    }
+
+    .cettesaison p{
+        font-size: 1.1rem;
+    }
+
+    .vieprivée p{
+        font-size: 1.1rem;
+    }
+}
+
+
+@media(max-width:380px){
+
+    .titre{
+        width: 300px;
+    }
+
+    h1{
+        font-size: 1.5rem;
+    }
+
+    .menu li a{
+        color: white;
+        font-size: 0.5rem;
+    }
+
+    .cettesaison img{
+        width: 250px;
+
+    }
+
+    .vidéo iframe{
+        width: 260px;
+    }
+}
+
+
+@media(max-width:360px){
+    .liens a{
+        margin-right: 0px;
+        padding-left: 3px;
+    }
+}
+
+
+@media(max-width:340px){
+
+    .cettesaison img{
+        width: 230px;
+    }
+
+    .vidéo iframe{
+        width: 240px;
+    }
+}
+
+
+@media(max-width:330px){
+    .menu li a{
+        color: white;
+        font-size: 0.45rem;
+    }
+}
+
+
+
