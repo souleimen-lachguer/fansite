@@ -1,0 +1,447 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+body{
+    background-image: url("./image index/grey.jpg");
+}
+
+
+.burgermenu{
+    display: none;
+}
+
+
+header{
+    width: 100%;
+    margin-bottom: 30px;
+
+}
+
+
+h1{
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    font-size: 2.2rem;
+    color: white;
+}
+
+
+
+
+
+
+.menu ul{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 30px;
+    right: 20px;
+
+}
+
+
+.menu li{
+    margin-right: 30px;
+    font-size: 1.2rem;
+}
+
+
+.menu li a{
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+
+.menu li a:hover{
+    color: rgba(245, 6, 6, 0.394);
+}
+
+
+main{
+    margin-top: 130px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 50px;
+    align-items: center;
+}
+
+
+.patmahomes{
+    width: 40%;
+    background-color: rgba(255, 255, 255, 0.616);
+    margin: auto;
+    display: grid;
+    grid-template-columns: 35%;
+    box-shadow: 0 0 10px 4px rgb(27, 27, 27);
+    margin-bottom: 70px;
+    margin-top: 40px;
+    min-height: 300px;
+}
+
+
+.patmahomes h2{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+
+.patmahomes img{
+    margin: 15px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(8, 8, 8);
+}
+
+
+.patmahomes p{
+    align-content: center;
+    margin: 15px;
+    font-size: 1rem;
+    line-height: 23px;
+}
+
+
+.patmahomes a{
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    margin-bottom: 10px;
+    color: black;
+    font-weight: bold;
+}
+
+
+.patmahomes a:hover{
+    color: white;
+}
+
+
+.wakedxy{
+    width: 40%;
+    background-color: rgba(255, 255, 255, 0.616);
+    margin: auto;
+    display: grid;
+    grid-template-columns: 35%;
+    box-shadow: 0 0 10px 4px rgb(27, 27, 27);
+    min-height: 300px;
+    margin-bottom: 70px;
+    margin-top: 40px;
+}
+
+
+.wakedxy h2{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+
+.wakedxy img{
+    margin: 15px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(8, 8, 8);
+}
+
+
+.wakedxy p{
+    align-content: center;
+    margin: 15px;
+    line-height: 23px;
+}
+
+
+.wakedxy a{
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    margin-bottom: 10px;
+    color: black;
+    font-weight: bold;
+}
+
+
+.wakedxy a:hover{
+    color: white;
+}
+
+
+.faker{
+    background-color: rgba(255, 255, 255, 0.524);
+    margin: auto;
+    display: grid;
+    grid-template-columns: 35%;
+    box-shadow: 0 0 10px 4px rgb(27, 27, 27);
+    width: 40%;
+}
+
+
+.faker h2{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+
+.faker img{
+    margin: 15px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(8, 8, 8);
+}
+
+
+.faker p{
+    grid-column-start: 2;
+    align-content: center;
+    margin: 15px;
+    line-height: 23px;
+}
+
+
+.faker a{
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    margin-bottom: 10px;
+    color: black;
+    font-weight: bold;
+}
+
+
+.faker a:hover{
+    color: white;
+}
+
+
+footer{
+    background-color: rgb(134, 134, 132);
+    text-align: center;
+    box-shadow: 0 0 10px 4px rgb(27, 27, 27);
+}
+
+
+footer h2{
+    padding-top: 20px;
+    margin-bottom: 40px;
+}
+
+
+input{
+    margin-right: 20px;
+    margin-bottom: 30px;
+    height: 30px;
+}
+
+
+.email{
+    width: 300px;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 500px;
+    margin: auto;
+    padding: 20px;
+    background-color: rgb(192, 192, 192);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    padding-bottom: 10px;
+}
+
+label {
+    display: block;
+    text-align: left;
+}
+
+input[type="text"], textarea {
+    width: 97.5%;
+    padding: 10px;
+    margin-right: 20px;
+    padding-right: 0;
+    margin-left: 0px;
+}
+
+textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+input[type="submit"] {
+    background-color: gray;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    margin-left: 0px;
+    margin-top: 40px;
+    width: 100%;
+    height: 40px;
+
+}
+
+input[type="submit"]:hover {
+    background-color: rgb(73, 72, 72);
+}
+
+@media(max-width:1138px){
+
+    .patmahomes{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .patmahomes p{
+        text-align: center;
+    
+    }
+
+    .wakedxy{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .wakedxy p{
+        text-align: center;
+    
+    }
+
+    .faker{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .faker p{
+        text-align: center;
+    
+    }
+
+
+
+}
+
+
+@media(max-width:600px){
+    main{
+        flex-direction: column;
+    }
+
+    .patmahomes{
+        width: 70%;
+    }
+    .wakedxy{
+        width: 70%;
+        margin-top: 0;
+    }
+    .faker{
+        width: 70%;
+    }
+
+
+
+}
+
+@media(max-width:780px){
+
+    .menu li{
+        margin-right: 30px;
+        font-size: 1rem;
+    }
+
+}
+
+@media(max-width:700px){
+
+    .burgermenu{
+        display: block;
+        position: absolute;
+        top: 15px;
+        right: 20px;
+    }
+
+
+
+
+
+    .menu ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(0, 0, 0);
+        width: 100%;
+        top: 0;
+        left: 0;
+        height: 100vh;
+        margin-left: -200%;
+        backdrop-filter: blur(10px);
+
+       
+    }
+
+    .menu .mobile-menu{
+        margin-left: 0;
+    }
+
+    .menu li{
+        margin-bottom: 70px;
+        text-align: center;
+        margin-right: 0;
+        font-size: 1.2rem;
+    }
+
+    .menu li a:hover{
+        color: rgb(77, 77, 78);
+    }
+
+
+
+
+
+ 
+
+}
+
+
+
+@media(max-width:700px){
+
+    form{
+        width: 80%;
+    }
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
