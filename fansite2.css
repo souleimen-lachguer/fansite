@@ -1,0 +1,149 @@
+/* Style général de la page */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #dcdcdc; /* Fond gris pour toute la page */
+    color: #333; /* Texte gris foncé pour la lisibilité */
+}
+
+/* Conteneur principal */
+.container {
+    width: 80%;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #ffffff; /* Fond blanc pour la section principale */
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Header */
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h1 {
+    font-size: 36px;
+    color: #444; /* Gris foncé pour le titre */
+}
+
+/* Section profil */
+.profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #ddd; /* Bordure grise légère autour de l'image */
+}
+
+.bio {
+    max-width: 600px;
+}
+
+.bio h2 {
+    font-size: 24px;
+    color: #444; /* Gris foncé pour le nom */
+    margin-bottom: 15px;
+}
+
+.bio p {
+    font-size: 16px;
+    color: #666; /* Gris pour le texte */
+    line-height: 1.6;
+}
+
+.link {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 25px;
+    background-color: #333; /* Gris foncé pour le bouton */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    text-align: center;
+}
+
+.link:hover {
+    background-color: #555; /* Légère nuance plus claire au survol */
+}
+
+/* Section content */
+.content {
+    background-color: #f0f0f0; /* Fond gris clair pour la section */
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 40px;
+}
+
+.content h2 {
+    font-size: 28px;
+    color: #444;
+}
+
+/* Section stats */
+.stats {
+    background-color: #f0f0f0; /* Fond gris clair pour la section */
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 40px;
+}
+
+.stats h2 {
+    font-size: 28px;
+    color: #444;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    font-size: 14px;
+    color: #777;
+    margin-top: 40px;
+}
+/* Section pour la galerie de vidéos */
+.video-gallery {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px; /* Espacement entre les vidéos */
+    margin-bottom: 40px;
+}
+
+.video {
+    flex: 1; /* Chaque vidéo prend une largeur égale */
+    min-width: 280px; /* Largeur minimale pour chaque vidéo */
+    max-width: 33%; /* Chaque vidéo prendra un tiers de la largeur du conteneur */
+    background-color: #f0f0f0; /* Fond gris clair pour chaque bloc */
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Légère ombre */
+    overflow: hidden; /* Masquer le débordement */
+}
+
+.video iframe {
+    width: 100%; /* S'adapte à la largeur du conteneur */
+    height: 300px; /* Hauteur fixe pour les vidéos */
+    border: 0; /* Retirer les bordures de l'iframe */
+}
+
+/* Optionnel : Ajouter des médias pour adapter les vidéos en mobile */
+@media (max-width: 768px) {
+    .video-gallery {
+        flex-direction: column; /* Empile les vidéos en une seule colonne */
+        align-items: center; /* Centrer les vidéos */
+    }
+
+    .video {
+        max-width: 80%; /* Largeur maximale de chaque vidéo sur mobile */
+        margin-bottom: 20px; /* Espacement entre les vidéos sur mobile */
+    }
+}
